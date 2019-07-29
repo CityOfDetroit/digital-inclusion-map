@@ -1,0 +1,39 @@
+{
+  "name": "digital-inclusion-map",
+  "version": "1.0.0",
+  "description": "Map to assist residents find public wifi and digital training across the city.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:CityOfDetroit/digital-inclusion-map.git"
+  },
+  "keywords": [
+    "Digital",
+    "Inclusion",
+    "Free",
+    "wifi"
+  ],
+  "author": "Edgar Montes",
+  "license": "MIT",
+  "bugs": {
+    "url": "git@github.com:CityOfDetroit/digital-inclusion-map.git"
+  },
+  "homepage": "git@github.com:CityOfDetroit/digital-inclusion-map-#readme",
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^2.3.0",
+    "@turf/simplify": "^5.1.5",
+    "@turf/turf": "^5.1.6",
+    "mapbox-gl": "^0.53.0",
+    "terraformer-arcgis-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "cssnano": "^4.1.10",
+    "sass": "^1.22.7"
+  }
+}
